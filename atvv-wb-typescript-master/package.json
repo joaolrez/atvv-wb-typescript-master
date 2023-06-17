@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/react-modal": "^3.16.0"
+  },
+  "dependencies": {
+    "react-materialize": "^3.10.0"
+  }
+}

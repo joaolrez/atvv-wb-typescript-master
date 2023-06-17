@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive-table td:hover{
+    cursor:  default;
+    transition: all ease 0.2s;
+    background-color: rgba(160, 160, 236, 0.158);
+}
+
+.responsive-table tr:nth-child(even){
+    background-color: rgba(149, 149, 235, 0.171);
+}
+
+.responsive-table th{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.247);
+}
+
+.responsive-table td:nth-last-child(1){
+    cursor:  default;
+   display: flex;
+   gap: 10px;
+}
+
+.responsive-table td:hover{
+    cursor:  default;
+    transition: all ease 0.2s;
+    background-color: rgba(160, 160, 236, 0.158);
+}
+
+.responsive-table th{
+    user-select: none;
+}
+
+.brand-logo{
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+    user-select: none;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-gap: 20px;
+    grid-column-gap: 100px;
+    margin: auto;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+
+h4{
+    opacity: 50%;
+}
+
+
+.box{    
+    background-color: #FFFFFE;
+    border: 5px solid rgba(216, 200, 200, 0.281);
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+    max-width: 45%;
+	justify-content: center;
+    text-align: center;
+}
+
+.listagem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.editar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon{
+    color: black;
+}
+
+.modal {
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .modal-content {
+    margin-bottom: 20px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-footer button {
+    margin-left: 10px;
+  }
